@@ -21,6 +21,15 @@ public class DadosPessoaisController {
         dadosPessoaisRepository.save(new DadosPessoais(dados));
 
     }
+    @DeleteMapping("/{id}")
+    @Transactional
+    public void excluir(@PathVariable Long id){
+
+       dadosPessoaisRepository.deleteById(id);
+
+
+
+    }
 
 
 }
