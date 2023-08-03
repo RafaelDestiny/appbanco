@@ -1,6 +1,8 @@
 package app.banco.apiBanco.entidade;
 
 import app.banco.apiBanco.record.CadastroDadosRecord;
+
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

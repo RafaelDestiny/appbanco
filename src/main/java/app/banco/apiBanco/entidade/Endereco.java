@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
 @Embeddable
 public class Endereco {
 
@@ -29,4 +28,6 @@ public class Endereco {
         this.bairro = dados.bairro();
         this.cep = dados.cep();
         this.complemento = dados.complemento();    }
+
+
 }

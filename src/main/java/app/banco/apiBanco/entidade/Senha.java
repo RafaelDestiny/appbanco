@@ -10,12 +10,8 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
-
 @Embeddable
 public class Senha {
-
-
     private String usuario;
     private String autenticacao;
 
